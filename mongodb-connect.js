@@ -15,7 +15,7 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
         completed: false
     }, (err, result) => {
         if(err){
-            console.log("There was an error inserting the new data");
+            console.log("There was an error inserting the new data!");
         }
     })
 
